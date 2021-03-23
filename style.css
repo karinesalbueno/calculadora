@@ -29,12 +29,10 @@ h3{
 .calculadora {
 	position: absolute;
 	background-color: rgba(0,0,0,0.3);
-/* altura da calculadora na pagina */
 	top: 0%;	
 	left: 50%;
 	transform: translate(-55%, 50%);
 	border-radius: 15px;
-/* distancia das funçoes para a caixa */
 	padding: 15px;
 }
 
@@ -42,16 +40,13 @@ h3{
 	width: 50px;
 	height: 50px;
 	font-size: 25px;
-/* coloca o mouse com maozinha */
 	cursor: pointer;
 	background-color:	#363636;
-/* sem borda */
 	border: none;
 	color:#fff;
 	margin: 2px;
 }
 
-/* Cor quando passa o mouse por cima */
 .botao:hover{
 	background-color: black;
 }
