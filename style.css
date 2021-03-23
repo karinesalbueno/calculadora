@@ -1,0 +1,69 @@
+*
+{	margin: 0;
+	padding: 0;
+}
+
+.logo h1{
+
+	font-size: 50px;
+	font-family: 'Kaushan Script', sans-serif;
+	transform: translate(0%, 50%);
+	align-items: center;
+}
+
+
+h3{
+	font-family: 'Poppins', sans-serif;
+	padding: 45px;
+}
+
+
+.fundo {
+	background-image: linear-gradient(120deg, #C71585,	#4169E1);
+	height: 100vh;
+	color:#C0C0C0		;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.calculadora {
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+/* altura da calculadora na pagina */
+	top: 0%;	
+	left: 50%;
+	transform: translate(-55%, 50%);
+	border-radius: 15px;
+/* distancia das funçoes para a caixa */
+	padding: 15px;
+}
+
+.botao{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+/* coloca o mouse com maozinha */
+	cursor: pointer;
+	background-color:	#363636;
+/* sem borda */
+	border: none;
+	color:#fff;
+	margin: 2px;
+}
+
+/* Cor quando passa o mouse por cima */
+.botao:hover{
+	background-color: black;
+}
+
+#resultado{
+	width: 207px;
+	background-color: white;
+	height: 30px;
+	margin: 5px;
+	font-size: 25px;
+	color:black;
+	text-align: right;
+	padding: 5px;
+
+}
